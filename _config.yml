@@ -1,43 +1,21 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 # Plugins
-
 plugins:
   - jekyll-include-cache
+  - jemoji
 
 
 # Theme
-
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 # Site Settings
-
 locale: "en-US"
 title: "Joshua Soberg"
 subtitle: "Android Software Engineer"
 email: soberg.dev@pm.me
 description: >-
-  Joshua Soberg's personal blog/portfolio website, revolving around modern Android software development.
+  My personal website/blog, revolving around modern Android software development.
 baseurl: ""
 url: "https://jsoberg.github.io/"
 repository: "https://github.com/jsoberg/jsoberg.github.io"
@@ -54,14 +32,15 @@ atom_feed:
 
 
 # Author
-
 author:
   name: "Joshua Soberg"
   #location: "United States"
   avatar: "/assets/images/avatar.png"
   bio: >- 
-    Android Software Engineer with 10+ years professional experience designing, 
-    developing, and publishing large-scale software products.
+    Hi! I'm Josh, an experienced software engineer passionate about building impactful Android applications. 
+    I've worked on everything from P2P communication tools to complex, real-time live-streaming applications
+     that serve millions of users. I'm excited to continue learning and share some of the lessons that I've 
+     picked up on my journey.
   email: "soberg.dev@pm.me"
   links:
     - label: "GitHub"
@@ -75,7 +54,6 @@ author:
 
 
 # Post Theme
-
 defaults:
   # _posts
   - scope:
