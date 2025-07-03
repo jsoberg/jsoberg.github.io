@@ -35,6 +35,8 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 enable_copy_code_button: true
 # Show future posts while drafting
 future: true
+# Set WPM for read time = to Medium's (according to https://mediumcourse.com/how-is-medium-article-read-time-calculated/)
+words_per_minute: 265
 # Include pages for tags/etc
 include:
   - _pages
