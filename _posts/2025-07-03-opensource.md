@@ -96,7 +96,7 @@ You likely use open source projects every day, both through libraries and the ap
 This step may come to you naturally - if you're using an open source library and find a bug that you can investigate and fix, go for it! Otherwise, you can utlize [GitHub's Lists](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars#organizing-starred-repositories-with-lists) feature for maintaining lists of projects. As an example, I maintain lists of [Android apps](https://github.com/stars/jsoberg/lists/android-apps) and [Android libraries](https://github.com/stars/jsoberg/lists/android-libraries) that I'm using (or just interested in), which is helpful when I'm looking for new projects that I'd like to contribute to.
 
 ## Step 3 - Check if the project is open to accepting contributions
-Upon finding a project that you'd like to contribute to, it's important to check and make sure that the project is actually open to accepting contributions. There a few clear signals that will tell you a project generally accepts contributions or not.
+Upon finding a project that you'd like to contribute to, it's important to check and make sure that the project is actually open to accepting contributions. There are a few clear signals that will tell you whether a project generally accepts contributions or not.
 
 ### Check the contributing guidelines
 The first thing you should check are the contributing guidelines included with the project. These are often defined in the `CONTRIBUTING.md` file (likely in the root of the project, [example](https://github.com/meshtastic/Meshtastic-Android/blob/main/CONTRIBUTING.md)) or in the main `README`. The lack of contributing guidelines doesn't *necessarily* rule the project out from direct code/documentation contributions, but it's an indicator that the project may not be willing to merge PRs that you create. 
@@ -108,10 +108,10 @@ Projects of any size will likely have some sort of community forum/center of dis
 Looking at the [graph of project contributors](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors) can give you insight on how often contributions are accepted. Using some previously noted examples, you can tell the difference between [Meshtastic](https://github.com/meshtastic/Meshtastic-Android/graphs/contributors) (accepts contributions, has a long list of contributors), and [ObjectBox](https://github.com/objectbox/objectbox-java/graphs/contributors) (generally doesn't accept contributions, only has a handful of contributors). The size and age of the project can help you determine the status as well - older, larger projects that accept third party contributions will likely have hundreds of different contributors.
 
 ### Check closed pull requests
-Finally, the list of closed PRs (in any GitHub repository, this can be found by opening the `Pull requests` tab and filtering on `Closed`) for a repository can tell you whether the project is open to contributions or not. If you're seeing all **merged** PRs being by the same one or two authors, while PRs from others are all marked **closed**, it might be a sign that this project doesn't often accept contributions. Again, I'll us [Meshtastic](https://github.com/meshtastic/Meshtastic-Android/pulls?q=is%3Apr+is%3Aclosed) as an example of a project that is open to accepting contributions.
+Finally, the list of closed PRs (in any GitHub repository, this can be found by opening the `Pull requests` tab and filtering on `Closed`) for a repository can tell you whether the project is open to contributions or not. If you're seeing all **merged** PRs being by the same one or two authors, while PRs from others are all marked **closed**, it might be a sign that this project doesn't often accept contributions. Again, I'll use [Meshtastic](https://github.com/meshtastic/Meshtastic-Android/pulls?q=is%3Apr+is%3Aclosed) as an example of a project that is open to accepting contributions.
 
 ## Step 4 - Fork the project :fork_and_knife:
-You've found a project you might want to contribute to, and it looks like it accepts contributions - now it's time to fork! [Making a fork on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) is a simple process, and creating the fork now will make it that much easier to create your first PR. If you don't end up wanting to make a contribution to this project after creating a fork, no sweat! You can delete a fork whenever you want; I myself have a small graveyard of forked repositories, some that I've made contributions to and others that I haven't yet.
+You've found a project you might want to contribute to, and it looks like it accepts contributions - now it's time to fork :fork_and_knife:! [Making a fork on GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) is a simple process, and creating the fork now will make it that much easier to create your first PR. If you don't end up wanting to make a contribution to this project after creating a fork, no sweat! You can delete a fork whenever you want; I myself have a small graveyard of forked repositories, some that I've made contributions to and others that I haven't yet.
 
 Your fork will look almost exactly like the main repository that you created the fork from. Here's an example of [my fork](https://github.com/jsoberg/Meshtastic-Android) that you can compare to the [main repository](https://github.com/meshtastic/Meshtastic-Android). GitHub makes it incredibly easy to keep your fork updated as the main repository receives changes; just click the `Sync Fork` -> `Update branch` option that shows near the top banner of your forked repository, and your main branch will be rebased/updated in line with the main repository:
 <center>
@@ -179,7 +179,7 @@ You'll want to write a PR description that is detailed, but without much filler;
 
 With code changes that make a visible change to the project (e.g. in an Android app), it's always preferred to add before and after screenshots to show how your update compares to the existing state. This confirms that you manually tested the change, while also giving maintainers a quick way to see differences. 
 
-Dragging an image into the PR will upload it to GitHub, adding some markdown like this to where dropped it:
+Dragging an image into the PR will upload it to GitHub, adding some markdown like this to where you dropped it:
 ```markdown
 ![before-image](https://github.com/user-attachments/assets/some-uuid-that-github-creates)
 
@@ -201,11 +201,11 @@ Using the uploaded examples from above would look like this:
 ```
 
 ### Create the PR
-Smash that `Create pull request` button! This will open the PR on the main repository, and run any continuous integration (CI) jobs that the main repository may have set. If you [ran tests locally](#make-sure-your-changes-work) you *shouldn't* have a problem here, but if a job ends up failing it's OK! The job should tell you what went wrong and then you can correct it - **pushing any commits to your branch will automatically update the PR**, and CI will run again.
+Smash that `Create pull request` button! This will open the PR on the main repository, and run any continuous integration (CI) jobs that the main repository may have set. If you [ran tests locally](#make-sure-your-changes-work) you *shouldn't* have a problem here, but if a job ends up failing it's OK! The job should indicate what went wrong and then you can correct it - **pushing any commits to your branch will automatically update the PR**, and CI will run again.
 
 Note that you **shouldn't rely solely on CI to verify your changes**. CI is there to catch issues, but each run comes with some cost - so it's better to [verify your changes work before pushing them](#make-sure-your-changes-work).
 
-## Step 8 - Wait :watch:
+## Step 9 - Wait :watch:
 Your PR is now open! Depending on the project, it may take some time for a maintainer to review it. I've seen PRs be reviewed in as quick as a few minutes, and some that have taken weeks - it all depends on how much time maintainers have to dedicate to the project. Your only job now is to be patient and wait for a review.
 
 A maintainer may have feedback that they'll want you to address before merging - this is OK. Communicate with the maintainers on the best path forward and relay any questions you may have, and then commit/push the appropriate changes - remember, this is what the PR process is all about!
