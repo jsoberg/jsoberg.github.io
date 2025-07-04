@@ -1,7 +1,7 @@
 ---
 title: "Making Your First Open Source Contribution"
 excerpt: "Making your first contribution to an open source project can be intimidating - but it doesn't have to be!"
-date: 2025-07-03 15:00:00 -0400
+date: 2025-07-03 20:30:00 -0400
 tags:
   - Community
   - Open Source
@@ -90,7 +90,7 @@ To provide some examples of code contributions, [this](https://github.com/meshta
 # Guide to making your first open source contribution
 
 ## Step 1 - Set a small goal
-Arguably the most important step in this journey is to set a small initial goal. You might be excited to completely rewrite the UI of an application, and maybe someday you will!; for your first contribution, it's better to set a smaller and more achievable goal. 
+Arguably the most important step in this journey is to set a small initial goal. You might be excited to completely rewrite the UI of an application, and maybe someday you will! For your first contribution, it's better to set a smaller and more achievable goal. 
 
 Remember, open source contributions are something that you're doing on your own time and for the benefit of the community; you aren't beholden to the same constraints that you are when working for a company. It's important to keep this in mind, setting a pace that is maintainable over time. In this line of work, putting unrealistic expectations on yourself (both in your day job, and in your open source work) can be a slippery slope to burnout and adding stress to your life.
 
