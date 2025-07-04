@@ -1,6 +1,7 @@
 # Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-seo-tag
   - jemoji
 
 
@@ -15,9 +16,10 @@ title: "Joshua Soberg"
 subtitle: "Android Software Engineer"
 email: soberg.dev@pm.me
 description: >-
-  My personal website/blog, revolving around modern Android software development.
+  My personal website/blog, revolving around lessons that I've learned in my career as a software engineer.
+tagline: "Joshua Soberg's website/blog, revolving around modern Android software development"
 baseurl: ""
-url: "https://jsoberg.github.io/"
+url: "https://joshuasoberg.com/"
 repository: "https://github.com/jsoberg/jsoberg.github.io"
 #masthead_title: " "
 github_username:  jsoberg
@@ -60,9 +62,19 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/joshuasoberg/"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@jsoberg"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
 
+# SEO Related Entries
+google-site-verification: "xr2jamH2PKIHI58mmJfbLEWpYICRlGuYlKiNcW0T1iQ"
+social:
+  name: Joshua Soberg
+  links:
+    - https://www.linkedin.com/in/joshuasoberg/
+    - https://github.com/jsoberg
 
 # Archives
 #  Type

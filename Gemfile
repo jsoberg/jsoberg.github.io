@@ -34,4 +34,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # GitHub Pages
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
-gem 'jemoji'
+gem 'jekyll-seo-tag', group: :jekyll_plugins
+gem 'jemoji', group: :jekyll_plugins
