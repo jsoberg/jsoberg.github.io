@@ -19,14 +19,12 @@ It took years of experience as a full-time software developer before I felt conf
 
 This article assumes that you are somewhat familiar with Git, and focuses on projects that are hosted on [GitHub](https://github.com/explore). Some knowledge of the programming/technical stack of the projects will be helpful, but not necessary - contributing to an open source project is a great way to learn something new.
 
----
----
+{% include styled_div.html %}
 
 # Discussion forum
 As part of this article, I've created a [:page_with_curl: discussion forum](https://github.com/jsoberg/making-your-first-open-source-contribution/discussions) on GitHub. Reach out if you have any questions, discussion topics, or just want to shout out your first contribution!
 
----
----
+{% include styled_div.html %}
 
 # Why contribute to open source
 Before talking about *how* to contribute, it's important to talk about *why*. Many benefits come with making open source contributions, and I'll touch on some of them here.
@@ -54,8 +52,7 @@ Beyond meeting some great people and making friends, this will give you a wider 
 ### Building a portfolio
 In my career, I've been on both sides of the interview process for software engineering positions more times than I can count. In all cases, I've observed that having publicly available work is a positive sign for a potential candidate. Having open source contributions in your portfolio won't guarantee you a job, but it's a signal that you're passionate about building software, displaying real-life examples of your abilities in ways that traditional jobs don't allow.
 
----
----
+{% include styled_div.html %}
 
 # Types of contributions
 Most people entering the open source space believe that adding new code is the only important contribution that you can make, but this is far from the truth. Open source projects, especially as they get larger, benefit greatly from many kinds of contributions.
@@ -79,8 +76,7 @@ As of late, I've been focusing some of my "open source time" on contributing to 
 
 To provide some examples of code contributions, [this](https://github.com/meshtastic/Meshtastic-Android/pulls?q=is%3Apr+is%3Aclosed+author%3Ajsoberg) is a list of pull requests I've opened in the Meshtastic Android app. You'll notice that the size and level of contributions varies wildly - from [cleaning up some unused code](https://github.com/meshtastic/Meshtastic-Android/pull/1612) to [fixing a long-standing issue affecting the UI on some devices](https://github.com/meshtastic/Meshtastic-Android/pull/1771). **Contributions of all types and sizes are worthwhile!**
 
----
----
+{% include styled_div.html %}
 
 <figure class="align-center">
   <img src="/assets/images/posts/2025-07-03-opensource/kara-peak-dLQZ8EUaRsk-unsplash.jpg" alt="Steps to take for making your first open source contribution">
@@ -222,8 +218,7 @@ Your PR is now open! Depending on the project, it may take some time for a maint
 
 A maintainer may have feedback that they'll want you to address before merging - this is OK. Communicate with the maintainers on the best path forward and relay any questions you may have, and then commit/push the appropriate changes - remember, this is what the PR process is all about!
 
----
----
+{% include styled_div.html %}
 
 <figure class="align-center">
   <img src="/assets/images/posts/2025-07-03-opensource/winston-chen-tnQcyXdvfxk-unsplash.jpg" alt="Steps to take for making your first open source contribution">
