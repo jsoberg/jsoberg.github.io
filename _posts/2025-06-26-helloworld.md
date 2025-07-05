@@ -1,6 +1,6 @@
 ---
 title: "Hello World"
-date: 2025-06-26 20:00:00 -0400
+date: 2025-06-26 20:00:00 -0004
 toc: false
 header:
   image: /assets/images/posts/2025-06-26-helloworld/header-grandcanyon.webp

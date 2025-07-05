@@ -1,7 +1,7 @@
 ---
 title: "Making Your First Open Source Contribution"
 excerpt: "Making your first contribution to an open source project can be intimidating - but it doesn't have to be!"
-date: 2025-07-03 15:00:00 -0400
+date: 2025-07-03 15:00:00 -0004
 tags:
   - Community
   - Open Source
