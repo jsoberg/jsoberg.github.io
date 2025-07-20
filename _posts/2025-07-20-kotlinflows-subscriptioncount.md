@@ -1,5 +1,5 @@
 ---
-title: "Automatic resource management with Kotlin Flows"
+title: "Automatic Resource Management with Kotlin Flows"
 excerpt: "How to automatically manage resources with a Kotlin SharedFlow."
 date: 2025-07-20 12:00:00 -0004
 tags:
