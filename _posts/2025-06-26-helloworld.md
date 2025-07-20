@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+excerpt: "Welcome to my blog!"
 date: 2025-06-26 20:00:00 -0004
 toc: false
 header:
