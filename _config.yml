@@ -25,9 +25,9 @@ repository: "https://github.com/jsoberg/jsoberg.github.io"
 github_username:  jsoberg
 # Enable Search
 search: true
-search_provider          : lunr
+search_provider: lunr
 lunr:
-  search_within_pages    : true
+  search_within_pages: true
 # Hide RSS Feed options
 atom_feed:
   hide: true
@@ -38,7 +38,7 @@ enable_copy_code_button: true
 # Show future posts while drafting
 future: true
 # Set WPM for read time = to Medium's (according to https://mediumcourse.com/how-is-medium-article-read-time-calculated/)
-words_per_minute: 265
+words_per_minute: 250
 # Include pages for tags/etc
 include:
   - _pages
