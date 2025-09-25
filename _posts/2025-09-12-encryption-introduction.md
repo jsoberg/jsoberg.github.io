@@ -23,7 +23,9 @@ This article is part of a series where we'll learn about Encryption, Authenticat
 
 # What is Encryption?
 
-Encryption is the process of taking readable information (often referred to as *plaintext*) and obscuring it using various techniques that make it unreadable (often referred to as *ciphertext*). The only way to read encrypted information is to decrypt it into its original form, which is only possible if you have the correct key.
+Encryption is the process of taking readable information (often referred to as *plaintext*) and obscuring it using various techniques that make it unreadable (often referred to as *ciphertext*). This insures that if the encrypted information is intercepted by someone other than the intended recipients, which is an inevitability on the Internet, the information will be useless to them without the proper key.
+
+The only way to read encrypted information is to decrypt it into its original plaintext form with the proper key. With a strong enough encryption technique, including the modern techniques noted in this article, it's all but impossible to decrypt the information without the key.
 
 ## The Importance of Encryption
 
@@ -37,9 +39,21 @@ There are many techniques that can be used to encrypt information, but all of th
 
 ## Symmetric Key Encryption
 
+When an encryption algorithm uses a single key for both encryption (converting to ciphertext) and decryption (converting back to plaintext), it's referred to as a _symmetric_ encryption algorithm. This means that both the sender and the receiver will be using a single key when communicating.
+
 ## Asymmetric Key Encryption
+
+Encryption algorithms that use separate keys for encrypting and decrypting information are referred to as _asymmetric_ encryption algorithms. Unlike with symmetric encryption (such as the Caesar cipher noted earlier), there are two separate keys required to communicate. 
+
+Asymmetric encryption is the backbone of secure communication in a zero-trust environment such as the Internet, as it allows you to securely communicate without having to share any information that would allow third parties to intercept and read that information. This is distinct from symmetric encryption, where one has to share a single key to perform any secure communication - since we can never rely on a secure method of transport
+
+## Combined Usage of Symmetric and Asymmetric Encryption
+
+Asymmetric encryption is critical for the secure exchange of information, but it comes with a cost. Due to the high mathematical complexity, encrypting and decrypting information with an asymmetric algorithm (such as RSA) is incredibly slow in comparison to an symmetric algorithm (such as AES), even for a modern computer.
 
 # Resources
 
 - [Cisco - What is Encryption? (cisco.com)](https://www.cisco.com/site/us/en/learn/topics/security/what-is-encryption.html)
 - [EFF - What Should I Know About Encryption? (eff.org)](https://ssd.eff.org/module/what-should-i-know-about-encryption)
+- [IBM - A Brief History of Cryptography](https://www.ibm.com/think/topics/cryptography-history)
+- [Trenton Systems - Symmetric vs. Asymmetric Encryption](https://www.trentonsystems.com/en-us/resource-hub/blog/symmetric-vs-asymmetric-encryption)
