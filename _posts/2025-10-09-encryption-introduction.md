@@ -23,6 +23,8 @@ Without knowing it, nearly every interaction that you have on the Internet relie
 
 This article will introduce the basics of encryption, including why it's important and how it's used to secure communication. The aim of this article is to provide an overview of encryption at a high-level, so we won’t explore the technical or mathematical aspects of modern encryption in depth.
 
+{% include styled_div.html %}
+
 # What is Encryption?
 
 Encryption is the process of taking readable information (often referred to as **plaintext**) and obscuring it using various techniques that make it unintelligible (often referred to as **ciphertext**). This ensures that if the encrypted information is intercepted by someone other than the intended recipient, the information is useless without the key.
@@ -52,6 +54,8 @@ We can see this case expand to touching 9+ different servers, traveling across t
 The hosts that sit in-between you and your intended destination could very well serve to gain something from reading the information that you're sending and receiving. It's well known that your Internet Service Provider (one of the first checkpoints in the journey from your computer to your destination) can and likely does collect as much information about you that it can to sell to the highest bidder ([ftc.gov](https://www.ftc.gov/news-events/news/press-releases/2021/10/ftc-staff-report-finds-many-internet-service-providers-collect-troves-personal-data-users-have-few)).
 
 When your information is properly encrypted, unauthorized parties who intercept your data will only have access to it in an indecipherable form (ciphertext), effectively making it garbage without access to the encryption key. Proper encryption insures a high degree of safety and privacy in a zero-trust environment such as the Internet.
+
+{% include styled_div.html %}
 
 # Types of Encryption
 
@@ -133,6 +137,8 @@ Considering the complexity of asymmetric algorithms and the "initial key deliver
 
 This provides the best of both worlds - the ability to securely exchange a key in an insecure environment (using an asymmetric algorithm like RSA) and then send and receive vast amounts of information quickly using that securely exchanged key (using a symmetric algorithm like AES).
 
+{% include styled_div.html %}
+
 # Conclusion
 
 <figure class="align-center">
@@ -141,6 +147,8 @@ This provides the best of both worlds - the ability to securely exchange a key i
 </figure>
 
 In this article, we've learned the basics of encryption, and the different techniques that are used to secure nearly every interaction made on the Internet. While the underlying math of modern encryption can be complex, the principles are essential to understand in an age where digital threats are always evolving.
+
+{% include styled_div.html %}
 
 # Resources
 
